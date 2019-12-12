@@ -3,7 +3,7 @@
   "description": "sample app for runtime 14 bug",
   "version": "0.1.0",
   "private": true,
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
