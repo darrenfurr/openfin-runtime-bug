@@ -1,4 +1,4 @@
-# react-amplify-openfin
+# openfin-runtime-bug
 
 ## Description
 
