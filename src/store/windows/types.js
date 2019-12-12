@@ -1,0 +1,13 @@
+export const CLOSE = 'CLOSE';
+export const SET_WINDOW = 'SETWINDOW';
+export const ON_CONNECTION = 'ON_CONNECTION';
+export const ON_DISCONNECTION = 'ON_DISCONNECTION';
+export const SET_PUSH_MESSAGE = 'SET_PUSH_MESSAGE';
+
+export default {
+  CLOSE,
+  SET_WINDOW,
+  ON_CONNECTION,
+  ON_DISCONNECTION,
+  SET_PUSH_MESSAGE,
+};

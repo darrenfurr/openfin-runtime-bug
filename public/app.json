@@ -1,0 +1,35 @@
+{
+  "devtools_port": 9090,
+  "startup_app": {
+    "name": "openfin-runtime-bug",
+    "description": "sample app for runtime 14 bug",
+    "url": "http://localhost:3000/",
+    "uuid": "react-amplify-openfin-01",
+    "defaultHeight": 700,
+    "defaultWidth": 700,
+    "defaultCentered": true,
+    "autoShow": true,
+    "frame": false
+  },
+  "runtime": {
+    "arguments": "",
+    "version": "stable"
+  },
+  "services": [
+    {
+      "name": "layouts",
+      "config": {
+        "features": {
+          "tab": false,
+          "dock": true,
+          "snap": true
+        }
+      }
+    }
+  ],
+  "shortcut": {
+    "company": "MarketAxess Holdings, Inc",
+    "appDescription": "sample app for runtime 14 bug",
+    "appName": "openfin-runtime-bug"
+  }
+}
