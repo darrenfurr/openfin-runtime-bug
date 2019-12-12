@@ -6,18 +6,16 @@ sample app for runtime 14 bug
 
 ---
 
-## Notes to create your application (**Delete after install**)
+## Getting Started
+- `yarn` to install dependencies
+- `yarn start` to run the app
+- Then in another terminal window - `npm run launch`
 
-Before running the yo tws:react-amplify-openfin generator, you'll want to first create an aws amplify project including your GraphQL schema.
-
-## The generator need to use the following from your AppSync project:
-
-- API URL (e.g. https://<app specific id here>.appsync-api.us-east-1.amazonaws.com/graphql)
-- API Key
-- AWS Region (e.g. us-west-1)
-
-After installation, in the command line run:
-
-- `amplify init` and answer the configurations questions
-- `amplify add api` - Amplify will automatically generate baseline Queries, Mutations, and Subscriptions based on the schema created at setup.
-- `amplify push` - build local backend and frontend resources
+## Recreate bug:
+- Upon app launch move the window using the AppBar
+- Then on the lower right corner resize the window
+- Attempt to move the window
+- Then resize the window again using lower right corner
+- Attempt to move the window again (notice it does not move)
+- Change the openfin runtime to 13.76.45.14 in /public/app.dev.json
+- Perform the steps again (bug should *not* be reproducable)
